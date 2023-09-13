@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+         * {
+             box-sizing: border-box;
+             margin: 0;
+             padding: 0;
+         }
+        body {
+             background-color: black;
+             color:white;
+               
+        }
+            .imgcontainer {
+                 padding: 10px 0  20px 0;
+                 
+            }
+             .imgcontainer img {
+                 width:98%;
+                 height: 40vh;
+                  display: block;
+                  margin: auto;
+                  object-fit: contain;
+             }
+               .welcometext {
+                 display: grid;
+                 place-content: center;
+                 padding: 1rem;
+                 height: 50vh;
+                 text-align: center;
+               }
+               .welcometext h1 {
+                  font-weight: bold;
+                  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+              padding-bottom: 1rem;
+            
+               }
+                 .welcometext p {
+                       padding: 1rem 2rem;
+                        font-size: 17px;
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                 }
+                .welcometext button {
+                     width:50%;
+                     padding:20px;
+                     border-radius: 20px;
+                     font-family: cursive;
+                     background-color: blueviolet;
+                     color: white;
+                }
+                .welcometext button:hover {
+                     background-color: white;
+                     color: black;
+                }
+                .alignbutton {
+                     text-align: center;
+                }
+                input {
+                    width: 80%;
+                    margin: auto;
+                    padding: 10px;
+                    font-size: 17px;
+                    color: black;
+                    border: none;
+                }
+                @media(max-height:480px) {
+                    .welcometext {
+                        height:fit-content;
+                    }
+                }
+    </style>
+</head>
+<body>
+
+    <div class="imgcontainer">
+        <img src="https://media.gettyimages.com/id/1362593682/photo/cristiano-ronaldo-of-manchester-united-reacts-wearing-the-captains-armband-during-the-premier.jpg?s=612x612&w=gi&k=20&c=_QQJ6V8nudTcEy6gpZySakODlpxG4vxJXlDQaLab1XY=" alt="ronaldo">
+        </div>
+    
+    <div class="welcometext">
+        <h1> Welcome to Segs football quiz app. </h1>
+        <input type="text" placeholder="Enter your name here" id="inputvalue" required>
+         <p>Test your football knowledge by attempting 
+            football questions and winning points.
+         </p>
+          <div class="alignbutton"> <button onclick="render()">Play Now </button> </div>
+    </div>
+    <script>
+      let valuing = document.getElementById("inputvalue")
+      function render() {
+        let values = valuing.value
+      if(values  == "") {
+         alert("Please enter your name")
+      }
+       else {
+         document.location = "quiz.html"
+         localStorage.setItem("values",JSON.stringify(values))
+       }
+    }
+    </script>
+</body>
+</html>
