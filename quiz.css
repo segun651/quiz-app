@@ -21,15 +21,11 @@
     
    }
     
-   nav h3 {
-      display: flex;
-      justify-content: flex-end;
-      padding: 0 5px;
-   }
+
      nav h1 {
       font-size: 1.8rem;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-       padding: 2px 8px;
+       padding: 1px 8px;
      }   
         
       
