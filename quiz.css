@@ -65,7 +65,7 @@
  }
 
  .answerbox li {
-   height: 10%;
+   height: 10vh;
    list-style: none;
    padding: 5px 10px;
    border: 1px solid;
