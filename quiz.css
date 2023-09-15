@@ -162,6 +162,9 @@
  }
 
  @media(max-width:480px) {
+     .questionbox {
+         height:80vh;
+     }
         .questionbox h1 {
           font-size: 25px;
         }
