@@ -14,7 +14,7 @@
  header {
    display: grid;
    align-items: center;
-   height: 7%;
+   height: 7vh;
  }
 
  nav {
@@ -40,7 +40,7 @@
 
 
  main {
-   height: 92%;
+   height: 83%;
  }
 
  .questionbox {
@@ -194,7 +194,7 @@
    }
 
    .answerbox li {
-     height: 13vh;
+     height: 13%;
    }
 
    .win h1,
