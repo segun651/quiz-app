@@ -40,7 +40,7 @@
 
 
  main {
-   height: 83vh;
+   height: 92vh;
  }
 
  .questionbox {
@@ -51,7 +51,7 @@
    display: grid;
     
    align-items: center;
-   height: 50%;
+   height: 50vh;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
  }
@@ -184,17 +184,17 @@
 
  @media(max-height:480px) {
    .questionbox {
-     height: 38%;
+     height: 38vh;
    }
    .questionbox h1 {
     font-size: 20px;
   }
    .answerbox {
-     height: 55%;
+     height: 55vh;
    }
 
    .answerbox li {
-     height: 13%;
+     height: 13vh;
    }
 
    .win h1,
@@ -212,5 +212,3 @@
      font-size: 15px;
    }
  }
-
-
