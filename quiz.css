@@ -14,7 +14,7 @@
  header {
    display: grid;
    align-items: center;
-   height: 7dvb;
+   height: 7vh;
  }
 
  nav {
@@ -48,7 +48,7 @@
    display: grid;
     
    align-items: center;
-   height: 51dvb;
+   height: 50vh;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
  }
@@ -57,7 +57,7 @@
  }
 
  .answerbox {
-   height: 40dvb;
+   height: 40vh;
 
  }
 
@@ -181,7 +181,7 @@
 
  @media(max-height:480px) {
    .questionbox {
-     height: 38dvb;
+     height: 38vh;
    }
    .questionbox h1 {
     font-size: 20px;
@@ -190,11 +190,11 @@
       font-size: 1.4rem;
     }
    .answerbox {
-     height: 55dvb;
+     height: 55vh;
    }
 
    .answerbox li {
-     height: 13.7dvb;
+     height: 13.7vh;
      font-size: 15px;
    }
 
