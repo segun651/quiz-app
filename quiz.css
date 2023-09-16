@@ -14,7 +14,7 @@
  header {
    display: grid;
    align-items: center;
-   height: 7vh;
+   height: 7dvh;
  }
 
  nav {
@@ -40,7 +40,7 @@
 
 
  main {
-   height: 92vh;
+   height: 92dvh;
  }
 
  .questionbox {
@@ -51,7 +51,7 @@
    display: grid;
     
    align-items: center;
-   height: 50vh;
+   height: 51dvh;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
  }
@@ -60,12 +60,12 @@
  }
 
  .answerbox {
-   height: 40vh;
+   height: 40dvh;
 
  }
 
  .answerbox li {
-   height: 10vh;
+   height: 10dvh;
    list-style: none;
    padding: 5px 10px;
    border: 1px solid;
@@ -162,9 +162,6 @@
  }
 
  @media(max-width:480px) {
-     .questionbox {
-         height:80vh;
-     }
         .questionbox h1 {
           font-size: 25px;
         }
@@ -187,17 +184,21 @@
 
  @media(max-height:480px) {
    .questionbox {
-     height: 38vh;
+     height: 38dvh;
    }
    .questionbox h1 {
     font-size: 20px;
   }
+    nav h1{
+      font-size: 1.4rem;
+    }
    .answerbox {
-     height: 55vh;
+     height: 55dvh;
    }
 
    .answerbox li {
-     height: 13vh;
+     height: 13.7dvh;
+     font-size: 15px;
    }
 
    .win h1,
