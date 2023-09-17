@@ -14,7 +14,7 @@
  header {
    display: grid;
    align-items: center;
-   height: 7vh;
+   height: 7dvb;
  }
 
  nav {
@@ -38,7 +38,11 @@
    padding: 2px 8px;
  }
 
-
+ main {
+   position: fixed;
+   height: 100%;
+   width: 100%;
+ }
 
  .questionbox {
    width: 100%;
@@ -46,9 +50,9 @@
    border-radius: 20px;
    text-align: center;
    display: grid;
-    
+    height: 52vh;
    align-items: center;
-   height: 50vh;
+   
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
  }
@@ -57,12 +61,12 @@
  }
 
  .answerbox {
-   height: 40vh;
+   height: 50%;
 
  }
 
  .answerbox li {
-   height: 10dvh;
+   height: 10vh;
    list-style: none;
    padding: 5px 10px;
    border: 1px solid;
@@ -86,6 +90,7 @@
    align-items: space-evenly;
    transform: translateY(100%);
    transition: 0.5s linear;
+   
  }
 
  .win h1 {
