@@ -38,11 +38,7 @@
    padding: 2px 8px;
  }
 
- main {
-   position: fixed;
-   height: 100%;
-   width: 100%;
- }
+
 
  .questionbox {
    width: 100%;
@@ -50,7 +46,7 @@
    border-radius: 20px;
    text-align: center;
    display: grid;
-    height: 52vh;
+    height: 50vh;
    align-items: center;
    
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -61,7 +57,7 @@
  }
 
  .answerbox {
-   height: 50%;
+   height: 40vh;
 
  }
 
