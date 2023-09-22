@@ -14,7 +14,7 @@
  header {
    display: grid;
    align-items: center;
-   height: 7dvb;
+   height: 7vh;
  }
 
  nav {
@@ -46,7 +46,7 @@
    border-radius: 20px;
    text-align: center;
    display: grid;
-    height: 50vh;
+    height: 52vh;
    align-items: center;
    
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -160,8 +160,19 @@
  }
 
  @media(max-width:480px) {
+ 
+     .questionbox{
+      height: 50vh;
+     }
+    
         .questionbox h1 {
           font-size: 25px;
+        }
+        nav h1{
+          font-size: 1.2rem;
+        }
+        nav h3 {
+          font-size: 1rem;
         }
    .win h1 {
      font-size: 100px;
@@ -188,7 +199,10 @@
     font-size: 20px;
   }
     nav h1{
-      font-size: 1.4rem;
+      font-size: 1.2rem;
+    }
+    nav h3 {
+      font-size: 1rem;
     }
    .answerbox {
      height: 55vh;
